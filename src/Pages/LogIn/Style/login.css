@@ -1,0 +1,28 @@
+.LoginMainContainer{
+    height: 76.2vh;
+    background: linear-gradient(to right, blue, white);
+    padding: 5rem;
+    caret-color: transparent;
+
+
+}
+.LoginSemiMain{
+    height: 65%;
+    width: 20%;
+    background-color: rgb(166, 166, 211);
+    border-radius: 1rem;
+    caret-color: transparent;
+    margin-bottom: -50%;
+    margin-left: 35%;
+    padding: 5rem;
+}
+.LoginEmail{
+    width: 130%;
+    height: 10%;
+    margin-left: -21%;
+    border: solid 2pt black;
+    padding: 1rem;
+    outline: none;
+    caret-color: black;
+    margin-top: 12%;
+}
