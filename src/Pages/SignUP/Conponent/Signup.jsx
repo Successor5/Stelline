@@ -14,7 +14,7 @@ export const SignuP=()=>{
             minLength={11}
             name="emailAddress"
           />
-          <div className="SignUpEmail">Continue</div>
+          <div className="SignUpEmail1">Continue</div>
             </div>
         </div>
         </>

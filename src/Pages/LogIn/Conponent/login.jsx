@@ -22,7 +22,7 @@ export const Login=()=>{
             className="LoginEmail"
             name="password"
           />
-          <div className="LoginEmail"> Login</div>
+          <div className="LoginEmail1"> Login</div>
             </div>
             </div>
         </>
