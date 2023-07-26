@@ -10,12 +10,11 @@ import { AddChild } from './Pages/AddChild/Conponent/AddChild';
 import ClockInOut from './Pages/ClockIn/conponent/ClockInOut';
 import FindCaretaker from './Pages/FindCaretaker/conponent/FindCaretaker';
 import { Register } from './Pages/RealRegister/Conponent/Register';
-import Dashboard from './Pages/DashBoard/Conponent/Dashboard';
+import { Dashboard } from './Pages/Dashboard/component/Dahboard';
 import { CareTaker } from './Pages/CareTaker/component/CareTaker';
 import { CareTakerBookingHistory } from './Pages/CareTakerBookingHistory/Conponent/CareTakerBookingHistory';
 import { ParentOrderBookingHistory } from './Pages/BookingHistory/Conponent/BookingHistory';
 import { ParentBookingHistory } from './Pages/ParentBookingHistory/Conponent/ParentBooking';
-
 function App() {
   return (
       <div className="App">
