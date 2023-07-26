@@ -6,8 +6,8 @@ export const LandingPage=()=>{
         <div className="LandingPage">
             <div className="LandingPageTopNav">
             <div className="LandingPageTopNavText">
-                <li>SignUp</li>
-                <li>LogIn</li>
+                <li onClick={() => { window.location.href = "/SignUp" }}> SignUp</li>
+                <li onClick={() => { window.location.href = "/Login" }}>LogIn</li>
                 <li>Contact</li>
                 <li>AboutUs</li>
                 </div>
