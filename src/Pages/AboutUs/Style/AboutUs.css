@@ -1,5 +1,5 @@
 .about-container {
-    background-color: #f5e0e6; /* soft pink */
+    background-color: #a0b1e9; /* soft pink */
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -10,7 +10,7 @@
 }
 
 .about-title {
-    color: #ff66b2; /* bright pink */
+    color: #2808f8; /* bright pink */
     font-size: 2em;
     margin-bottom: 20px;
 }
@@ -23,7 +23,7 @@
 }
 
 .about-highlight, .about-signoff, .about-mission {
-    color: #0044ff; /* blue */
+    color: #2808f8; /* bright pink */
     font-weight: bold;
     margin: 20px 0;
     font-size: 1.3em;
@@ -32,7 +32,7 @@
 .get-started-button {
     display: inline-block;
     padding: 12px 24px;
-    background-color: #007bff;
+    color: #2808f8; /* bright pink */
     color: #fff;
     font-size: 16px;
     text-decoration: none;
@@ -43,5 +43,5 @@
 }
 
 .get-started-button:hover {
-    background-color: #0056b3;
+    color: #2808f8; /* bright pink */
 }
