@@ -15,6 +15,7 @@ import { CareTaker } from './Pages/CareTaker/component/CareTaker';
 import { CareTakerBookingHistory } from './Pages/CareTakerBookingHistory/Conponent/CareTakerBookingHistory';
 import { ParentOrderBookingHistory } from './Pages/BookingHistory/Conponent/BookingHistory';
 import { ParentBookingHistory } from './Pages/ParentBookingHistory/Conponent/ParentBooking';
+import WorkHistory from './Pages/WorkHistory/Conponent/WorkHistory';
 function App() {
   return (
       <div className="App">
@@ -26,6 +27,7 @@ function App() {
           <Route path="/CareTaker" element={<CareTaker />} />
           <Route  path="/Dashboard" element={<Dashboard/>}/>
           <Route  path="/Register" element={< Register/>}/>
+          <Route path="/WorkHistory" element={<WorkHistory/>} />
           <Route  path="/FindCaretaker" element={<FindCaretaker/>}/>
           <Route  path="/ClockInOut" element={<ClockInOut/>}/>
           <Route  path="/Child" element={<AddChild/>}/>
