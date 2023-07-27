@@ -3,21 +3,18 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import {AboutUs} from "./Pages/AboutUs/Component/AboutUs";
 import { LandingPage } from './Pages/LandingPage/Component/LandingPage';
-import { Login } from './Pages/LogIn/Conponent/login';
-import { SignuP } from './Pages/SignUP/Conponent/Signup';
-import { Authentication } from './Pages/Authentication/Conponent/Authentication';
-import { AddChild } from './Pages/AddChild/Conponent/AddChild';
-import ClockInOut from './Pages/ClockIn/conponent/ClockInOut';
-import FindPreferredCaretaker from './Pages/FindCaretaker/conponent/FindPreferredCaretaker';
-import { Register } from './Pages/RealRegister/Conponent/Register';
-
-//import Dashboard from './Pages/DashBoard/Conponent/Dashboard';
-//import { Dashboard } from './Pages/Dashboard/component/Dahboard';
+import { Login } from './Pages/LogIn/Component/login';
+import { SignuP } from './Pages/SignUP/Component/Signup';
+import { Authentication } from './Pages/Authentication/Component/Authentication';
+import { AddChild } from './Pages/AddChild/Component/AddChild';
+import ClockInOut from './Pages/ClockIn/Component/ClockInOut';
+import FindPreferredCaretaker from './Pages/FindCaretaker/Component/FindPreferredCaretaker';
+import { Register } from './Pages/RealRegister/Component/Register';
 import { CareTaker } from './Pages/CareTaker/component/CareTaker';
-import { CareTakerBookingHistory } from './Pages/CareTakerBookingHistory/Conponent/CareTakerBookingHistory';
-import { ParentOrderBookingHistory } from './Pages/BookingHistory/Conponent/ParentBookingOrderHistory';
-import { ParentBookingHistory } from './Pages/ParentBookingHistory/Conponent/ParentBooking';
-import WorkHistory from './Pages/WorkHistory/Conponent/WorkHistory';
+import { CareTakerBookingHistory } from './Pages/CareTakerBookingHistory/Component/CareTakerBookingHistory';
+import { ParentOrderBookingHistory } from './Pages/BookingHistory/Component/ParentBookingOrderHistory';
+import { ParentBookingHistory } from './Pages/ParentBookingHistory/Component/ParentBooking';
+import WorkHistory from './Pages/WorkHistory/Component/WorkHistory';
 function App() {
   return (
       <div className="App">
@@ -29,7 +26,6 @@ function App() {
           <Route path="/CareTaker" element={<CareTaker />} />
           <Route  path="/Register" element={< Register/>}/>
           <Route path="/WorkHistory" element={<WorkHistory/>} />
-          <Route  path="/FindCaretaker" element={<FindCaretaker/>}/>
           <Route  path="/FindPreferredCaretaker" element={<FindPreferredCaretaker/>}/>
           <Route  path="/ClockInOut" element={<ClockInOut/>}/>
           <Route  path="/Child" element={<AddChild/>}/>
