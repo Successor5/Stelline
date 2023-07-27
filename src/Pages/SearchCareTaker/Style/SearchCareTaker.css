@@ -4,7 +4,7 @@
     margin-left: 30%;
 }
 .InformationMain{
-    background-color: rgb(112, 121, 216);
+    background-color: rgb(140, 146, 213);
     height: 100vh;
     overflow: hidden;
     background-repeat: no-repeat;
@@ -17,6 +17,7 @@
 .InformationText{
     width: 96%;
     margin: 0.5rem;
+    border: solid 2pt black;
     height: 10%;
     border-radius: 1rem;
 }
