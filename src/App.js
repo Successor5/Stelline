@@ -7,7 +7,7 @@ import { Login } from './Pages/LogIn/Conponent/login';
 import { SignuP } from './Pages/SignUP/Conponent/Signup';
 import { Authentication } from './Pages/Authentication/Conponent/Authentication';
 import { AddChild } from './Pages/AddChild/Conponent/AddChild';
-import ClockInOut from './Pages/ClockIn/conponent/ClockInOut';
+//import ClockInOut from './Pages/ClockIn/conponent/ClockInOut';
 import FindPreferredCaretaker from './Pages/FindCaretaker/conponent/FindPreferredCaretaker';
 import { Register } from './Pages/RealRegister/Conponent/Register';
 
@@ -17,6 +17,7 @@ import { CareTaker } from './Pages/CareTaker/component/CareTaker';
 import { CareTakerBookingHistory } from './Pages/CareTakerBookingHistory/Conponent/CareTakerBookingHistory';
 import { ParentOrderBookingHistory } from './Pages/BookingHistory/Conponent/ParentBookingOrderHistory';
 import { ParentBookingHistory } from './Pages/ParentBookingHistory/Conponent/ParentBooking';
+import {ClockInOut} from './Pages/ClockInAndOut/component/ClockInAndOut';
 function App() {
   return (
       <div className="App">
@@ -25,11 +26,12 @@ function App() {
           <Route path="/ParentBookingHistory" element={< ParentBookingHistory />} />
           <Route path="/ParentOrderBookingHistory" element={< ParentOrderBookingHistory />} />
           <Route path="/CareTakerBookingHistory" element={<CareTakerBookingHistory />} />
+          <Route path="/ClockInOut" element={<ClockInOut/>} />
           <Route path="/CareTaker" element={<CareTaker />} />
           /* <Route  path="/Dashboard" element={<Dashboard/>}/> 
           <Route  path="/Register" element={< Register/>}/>
           <Route  path="/FindPreferredCaretaker" element={<FindPreferredCaretaker/>}/>
-          <Route  path="/ClockInOut" element={<ClockInOut/>}/>
+          {/* <Route  path="/ClockInOut" element={<ClockInOut/>}/> */}
           <Route  path="/Child" element={<AddChild/>}/>
           <Route  path="/Authentication" element={< Authentication/>}/>
           <Route  path="/SignUp" element={<SignuP/>}/>
