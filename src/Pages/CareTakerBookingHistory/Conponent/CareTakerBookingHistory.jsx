@@ -1,16 +1,39 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../../CareTakerBookingHistory/Style/CareTakerBookingHistory.css"
 import { useState } from "react";
+import axios from "../../../api/axios";
  export const CareTakerBookingHistory = () => {
     
 
-    const [Records, setRecords] = useState([])
+    const [records, setRecords] = useState([]);
+  
+
+     console.log("I got here");
+
+     document.addEventListener('DOMContentLoaded', fetchData)
+
+      const fetchData = async () => {
+        try {
+          const response = await axios.post
+          (`/parentBookedSessions?parentEmailAddress=${encodeURIComponent("emailAddress11")}`);
+          console.log("i'm here");
+          const responseObject = response.data;
+          console.log(response.request);
+          console.log(responseObject);
+          setRecords(responseObject);
+        } catch (error) {
+          console.log(error);
+        }
+      };
     
-    const careTakerEmailAddress = "emailAddress3"
+      
+    ;
+    
     return (
       <div className="CareTakerdashboard-container">
-        jgyhgfv
-         {Records.map(item => (
+          uiyekujjk
+
+         {records.map(item => (
         <div key={item.BookingId}>
         <div className="CareTakerdashboard-header">
           <h1>Welcome, Caretaker!</h1>
