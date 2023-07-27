@@ -15,19 +15,25 @@ import { CareTakerBookingHistory } from './Pages/CareTakerBookingHistory/Compone
 import { ParentOrderBookingHistory } from './Pages/BookingHistory/Component/ParentBookingOrderHistory';
 import { ParentBookingHistory } from './Pages/ParentBookingHistory/Component/ParentBooking';
 import WorkHistory from './Pages/WorkHistory/Component/WorkHistory';
+import SearchCareTaker from './Pages/SearchCareTaker/Component/SearchCareTaker';
+
+import { Dashboard } from './Pages/DashBoard/component/Dashboard';
 function App() {
   return (
       <div className="App">
         <Router>
-          <Routes>
+          <Routes>  
+            <Route path="/SearchCareTaker" element={<SearchCareTaker/>} />
           <Route path="/ParentBookingHistory" element={< ParentBookingHistory />} />
           <Route path="/ParentOrderBookingHistory" element={< ParentOrderBookingHistory />} />
           <Route path="/CareTakerBookingHistory" element={<CareTakerBookingHistory />} />
+          <Route path="/ClockInOut" element={<ClockInOut/>} />
           <Route path="/CareTaker" element={<CareTaker />} />
+          /* <Route  path="/Dashboard" element={<Dashboard/>}/> 
           <Route  path="/Register" element={< Register/>}/>
           <Route path="/WorkHistory" element={<WorkHistory/>} />
           <Route  path="/FindPreferredCaretaker" element={<FindPreferredCaretaker/>}/>
-          <Route  path="/ClockInOut" element={<ClockInOut/>}/>
+          {/* <Route  path="/ClockInOut" element={<ClockInOut/>}/> */}
           <Route  path="/Child" element={<AddChild/>}/>
           <Route  path="/Authentication" element={< Authentication/>}/>
           <Route  path="/SignUp" element={<SignuP/>}/>
